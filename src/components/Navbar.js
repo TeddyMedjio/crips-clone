@@ -106,7 +106,7 @@ function Navbar() {
             </Button>
           </MenuRigth>
 
-          {npm && (
+          {isOpen && (
             <DropdowMenu ref={menuRef}>
               <Dropdownitem
                 href="https://crisp.chat/fr/livechat/"
